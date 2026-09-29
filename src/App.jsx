@@ -1,8 +1,11 @@
+import { RouterProvider } from "react-router-dom"
+import AppRouter from "./Layout/AppRouter"
+
 const App = () => {
   
   return (
     <>
-      <h1 className='text-center text-4xl'>Job Portal App</h1>
+      <RouterProvider router={AppRouter} />
     </>
   )
 }
